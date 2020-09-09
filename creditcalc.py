@@ -41,8 +41,8 @@ elif args.type == 'diff':
         for m in range(n):
             Dm = math.ceil(P / n + i * (P - P * m / n))
             total_payment += Dm
-            print(f'Month {m + 1}: payment is {Dm}\n')
-            print(f'Overpayment = {total_payment - P}')
+            print(f'Month {m + 1}: payment is {Dm}')
+        print(f'\nOverpayment = {total_payment - P}')
     else:
         print("Incorrect parameters")
 else:
