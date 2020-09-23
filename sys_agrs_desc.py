@@ -1,7 +1,7 @@
 import sys  # first, we import the module
 
 args = sys.argv  # we get the list of arguments
-print(f"这个{args[0]}用来说明py脚本命令行参数的传入")
+print(f"这个{args[0]}脚本用来说明py脚本命令行参数的传入")
 first_num = float(args[1])
 second_num = float(args[2])
 
